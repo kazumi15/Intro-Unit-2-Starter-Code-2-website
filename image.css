@@ -1,0 +1,22 @@
+body{
+background-image: url("https://i.pinimg.com/564x/91/b1/d8/91b1d855236a1d3fc1b003c6ab5c0e6d.jpg");}
+
+.Murder{color:whitesmoke}
+
+h2{
+    text-align:center;
+}
+.sectionsContainer{
+    display:flex;
+    justify-content:space-around;
+}
+
+/* The code on lines 25-28 gives  a solid black border to section and puts space between them (the margin) */
+.section{
+    border:5px black solid;
+    margin:3px;
+    width: 20%;
+}
+a:hover {
+  background-color: #cec4e3;
+}

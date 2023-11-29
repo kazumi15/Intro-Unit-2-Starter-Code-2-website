@@ -1,0 +1,24 @@
+body{background-image: url("https://i.pinimg.com/564x/7b/04/10/7b0410e977b7c5aa128f2cdadded1cbf.jpg");
+    }
+h2{color:#4999df
+}
+.sectionsContainer{
+    display:flex;
+    justify-content:stretch;
+}
+
+/* The code on lines 25-28 gives  a solid black border to section and puts space between them (the margin) */
+.section{
+    border:5px black solid;
+    margin:3px;
+    width: 20%;
+    padding-inline: 5px;
+}
+a:hover {
+  background-color: #cec4e3;
+}
+ul{color:#eeff00
+}
+li{color:#eeff00
+}
+i{color:#eeff00}

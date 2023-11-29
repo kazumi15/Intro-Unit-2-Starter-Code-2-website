@@ -19,7 +19,7 @@ h2{
 /* The code on lines 19-22 aligns all the sections horizontally on the bottom*/
 .sectionsContainer{
     display:flex;
-    justify-content:space-around;
+    justify-content:space-between;
 }
 
 /* The code on lines 25-28 gives  a solid black border to section and puts space between them (the margin) */
@@ -31,3 +31,7 @@ h2{
 
 body{
 background-image: url("https://i.pinimg.com/564x/17/b4/39/17b439862544b612a72e028c06c77462.jpg");}
+
+a:hover {
+  background-color: #cec4e3;
+}
