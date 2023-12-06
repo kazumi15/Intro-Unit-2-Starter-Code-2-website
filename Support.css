@@ -2,6 +2,7 @@ body{background-image: url("https://i.pinimg.com/564x/7b/04/10/7b0410e977b7c5aa1
     }
 h2{color:#4999df
 }
+
 .sectionsContainer{
     display:flex;
     justify-content:stretch;
@@ -15,10 +16,21 @@ h2{color:#4999df
     padding-inline: 5px;
 }
 a:hover {
-  background-color: #cec4e3;
+  background-color: #ff0a0a;
 }
-ul{color:#eeff00
+ul{color:#0b0b09
 }
-li{color:#eeff00
+li{color:#070703
 }
-i{color:#eeff00}
+i{color:#000000}
+
+.email {
+  color:#000000;
+  animation-name: example;
+  animation-duration: 20s;
+}
+
+@keyframes example {
+  from {background-color: red;}
+  to {background-color: yellow;}
+}
